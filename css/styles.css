@@ -348,7 +348,7 @@ img {
 }
 
 .team-list .text {
-    margin-bottom: 0px;
+    margin-bottom: 16px;
     margin-top: 0px;
     font-weight: 400;
     font-size: 16px;
@@ -358,25 +358,40 @@ img {
 
 
 
-
-
 .team-list-second {
-    display: inline-flex;
-}
+    display: flex;
+    padding-left: 32px;
+    padding-right: 32px;
+    }
 
-.social-list   {
+.team-list .social-list:not(:last-child) {
+        margin-right:10px;
+    }
+
+.instagram,
+.twitter,
+.facebook,
+.linkedin  {
+    display: flex;
+    width: 20px;
+    height: 20px;
+   }
+
+   .social-link {
     display: flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-    background-color: red;
     align-items: center;
     justify-content: center;
+    fill: #AFB1B8;
    }
 
-   .social-link
-
-
+   .social-list .social-link:hover, 
+   .social-list .social-link:focus {
+     background-color: var(--blue-color);
+     fill: var(--white-color);
+   }
 
 
 
