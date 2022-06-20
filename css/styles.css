@@ -394,6 +394,45 @@ img {
    }
 
 
+/**Clients 6 **/
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 67px;
+}
+
+.clients-list {
+    display: inline-flex;
+   
+}
+
+.clients-link {
+    display: flex;
+    
+}
+
+.clients-link-link {
+    fill: #AFB1B8;
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;  
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.clients-link:not(:last-child) {
+    margin-right:30px;
+}
+
+.clients-link-link:hover, 
+.clients-link-link:focus {
+  color: var(--blue-color);
+  fill: var(--blue-color);
+  border: 1px solid var(--blue-color);
+}
+
 
 /**Section 5 - PORTFOLIO*/
 
@@ -428,7 +467,8 @@ img {
     letter-spacing: 0.03em;
   }
   
-  .button-second:hover{
+  .button-second:hover,
+  .button-second:focus {
     color: var(--white-color);
     background-color: var(--blue-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -452,7 +492,13 @@ img {
     margin-right: 30px;
     margin-bottom: 30px;
     }
-  
+
+    .works-portfolio li:hover,
+    .works-portfolio li:focus {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+
    .works-portfolio li:nth-child(3n){
         margin-right: 0px;
     }
