@@ -535,6 +535,8 @@ img {
 
 .footer {
     background-color: var(--bg-color-first);
+    padding-top: 60px;
+    padding-bottom: 60px;
     
     
 }
@@ -570,6 +572,7 @@ img {
 
 .footer .conteiner{
     display:flex;
+    align-items: baseline;
 }
 
 .social-footer .third-title{
@@ -587,7 +590,7 @@ img {
 .social-footer {
     min-width: 206px;
     margin-left: 70px;
-    padding-top: 72px;
+    
     
 }
 
@@ -596,11 +599,7 @@ img {
     padding-left: 0px;
 }
 
-.address-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    
-}
+
 .social-footer .social-link  {
 background-color: rgba(255, 255, 255, 0.1);;
 }
